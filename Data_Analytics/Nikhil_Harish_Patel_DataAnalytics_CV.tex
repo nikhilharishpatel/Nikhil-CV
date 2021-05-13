@@ -1,0 +1,212 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{academicons}
+\usepackage[T1]{fontenc}
+\usepackage[pdfencoding=auto]{hyperref}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{0.75in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeItemNoColon}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeItemNoColonNB}[1]{
+  \item[]\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-2pt}}
+\newcommand{\resumeSubItemNoColon}[2]{\resumeItemNoColon{#1}{#2}\vspace{-4pt}}
+
+\newcommand{\resumeSubheadingNoColon}[2]{
+  \vspace{2pt}\small \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pdfstringdefDisableCommands{%
+  \def\faGraduationCap{\unichar{"F19D}}
+  \def\faFlask{\unichar{"F0C3}}
+  \def\aiGoogleScholar{\unichar{"E9D4}}
+  \def\faPieChart{\unichar{"F200}}
+  \def\faGears{\unichar{"F085}}
+  \def\faClipboard{\unichar{"F0EA}}
+  \def\faBriefcase{\unichar{"F0B1}}
+  %
+}
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	 \textbf{{\Large Nikhil Harish Patel}} & \\
+     
+     \href{mailto:nikhil.harish.patel@asu.edu}{\faEnvelope \space nikhil.harish.patel@asu.edu} & \href{https://www.linkedin.com/in/nikhil-harish-patel/}{\faLinkedin \space /nikhil-harish-patel}\\
+       \href{tel:+14809309294}{\faPhone \space +1 480-930-9294} & \href{https://github.com/nikhilharishpatel}{\faGithub \space /nikhilharishpatel}\\
+\end{tabular*}
+
+
+
+%-----------EXPERIENCE-----------------
+\section{{\faBriefcase} Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Data Analyst}{Sep 2020 -- Present}
+       \resumeItemListStart
+       \resumeItem{Database Management \& Presenting Actionable Insights}
+       {\\
+       1. Implementing analytical solutions for a large funded research project to optimize data collection strategies and reduce the dataset curation effort by over 10\%.\\
+       2. Text data analysis for customer sentiments and ETL pipeline management for social media platforms.\\
+       3. Enforcing checks and balances to ensure data integrity with feature engineering to improve existing NLP models.\\
+       4. Visualizing correlation between user activities and promotional offers using Tableau and deriving actionable insights.
+       }
+       \resumeItemListEnd
+     \resumeSubheading
+      {CrossNibble Technologies Private Limited}{Mumbai, India}
+      {Senior Data Analyst}{Jul 2018 -- Jul 2019}
+      \resumeItemListStart
+      \resumeItem{Database Management}
+       {Ideated and implemented new DB processes along with fine-tuning existing processes:\\
+       1. Coarse to fine-grained exploratory and explanatory analysis of customer feedback with quality checks.\\
+       2. Optimized SQL and removed ETL bottlenecks resulting in a 40\% reduction in system latency.
+       }
+       \resumeItem{Marketing Data Analysis \& Reporting} 
+       {Extensive exposure to marketing data \& integrated cloud solutions:\\
+       1. Developed the go-to-market plan to redesign an educational product after extensive market research.\\
+       2. Designed and implemented A/B tests for cross-selling complementary products based on customer buying habits which increased the revenue by 10\% MoM (100k INR).\\
+       3. Analyzed customer communications using Google Marketing Solutions to understand conversion funnel and improved open rates of promotional Emails and SMSes by over 15\%.\\
+       4. Presented actionable insights to stakeholders via dashboards and storytelling using Tableau and Google Analytics.
+       }
+       \resumeItem{Team Management}
+          {Scrum Master for a large-scale Agile project and managed a team of 5 personnel in a Matrix system. Elicited product requirements and oversaw the development of analytical solutions.}
+       \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Mumbai, India}
+      {Senior Analyst}{Jun 2015 -- Jul 2018}
+      \resumeItemListStart
+      \resumeItem{Requirement Gathering \& Reporting}
+       {\\
+       1. Gathered requirements to develop functional/technical design documents and managed UI/UX modules.\\
+       2. Propounded customer pain areas by analyzing data from social media platforms.\\
+       3. Addressed high-priority production incidents by performing a thorough impact assessment and root cause analysis.
+       }
+       \resumeItem{Database Management} 
+       {\\
+       1. Monitored and checked data validation rules along with data constraints to maintain data quality standards.\\
+       2. Designed and developed SQL tool to automate the manual code comparison process, reducing 70\% of manual efforts.
+       }
+       \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------------
+\section{{\faFlask} Projects}
+\vspace{4pt}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Supply Chain Analytics (Python \& EDI files)}
+    {MVP analyzing daily transactions, SKUs, and weekly bills of lading to recommend products to restock the store optimally by considering inventory lead time. Additionally, performing market basket analysis to recommend product placement and increase the CLV.}
+   \resumeSubItem{Indian Stock Market Analysis (Python)}
+    {Performing technical analysis of the stock to calculate Moving Averages, Relative Strength Index, Volatility of the industry to provide appropriate exit points based on the market trend.}
+  \resumeSubItem{Sudoku Puzzle Solver (MATLAB \& Java)} {A system that accepts digital images of the Sudoku puzzle to provide instant solutions to the user by extracting numbers using image processing and solving the puzzle using a Backtracking algorithm.}
+    \resumeSubItem{Restaurant Order Recommender System (Python)}
+     {Recommending relevant dishes to the user by applying latent factor collaborative filtering (TF-IDF Vectorizer) to increase the customer basket value.}
+
+ 
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EDUCATION-----------------
+\section {{\faGraduationCap} Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Master's in Information Systems Management; GPA: 3.97}{Aug 2019 -- Jul 2020}
+      \resumeItemListStart
+       \resumeItem{Courses}
+       {Info. Enabled Business Modeling, Data Mining, Business Data Visualization, Business Intelligence}
+       \resumeItemListEnd
+    \resumeSubheading
+      {University of Mumbai}{Mumbai, India}
+      {Bachelor of Engineering in Information Technology;  First Class}{Aug 2011 -- May 2015}
+      \resumeItemListStart
+      \resumeItem{Courses}
+       {Data Warehousing, Data Structures \& Algorithms, Database Management, Object--Oriented Analysis}
+       \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%--------TECHNICAL SKILLS------------
+\section{{\faGears} Technical Skills \& Certifications}
+\vspace{4pt}
+ \resumeSubHeadingListStart
+ \resumeSubItem{Languages}{Python, Java, Unix Shell Scripting, MATLAB}
+ \resumeSubItem{Frameworks}{Pandas, Scikit-Learn,  Matplotlib, NumPy, NLTK}
+ \resumeSubItem{Databases/Tools}{SQL, MongoDB, Hadoop, Google Analytics, Tableau, PowerBI, Apache Spark}
+ \resumeSubItemNoColon{\href{https://coursera.org/share/9834e0256629ce5b4fa655625566ce44}{\underline{Software Product Management} by University of Alberta}}\hfill\emph{Apr 2021}
+ \resumeSubItemNoColon{\href{https://analytics.google.com/analytics/academy/certificate/OEBBwV8eQrGW62SQrICQ4Q}{\underline{Google Analytics for Beginners} by Google Analytics Academy}}\hfill\emph{May 2021}
+ 
+ \resumeSubHeadingListEnd
+
+\end{document}
